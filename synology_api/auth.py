@@ -9,7 +9,7 @@ class Authentication:
         self._password = password
         self._sid = None
         self._session_expire = True
-        self._base_url = 'http://%s:%s/webapi/' % (self._ip_address, self._port)
+        self._base_url = 'https://%s:%s/webapi/' % (self._ip_address, self._port)
 
         self.full_api_list = {}
         self.app_api_list = {}
